@@ -1,0 +1,21 @@
+common: &common
+  adapter: postgresql
+  encoding: utf8
+  username: postgres
+  password:
+  pool: 5
+  timeout: 5000
+  host: localhost
+  min_messages: warning
+
+development:
+  <<: *common
+  database: app_guest_development
+
+test:
+  <<: *common
+  database: app_guest_test
+
+production:
+  <<: *common
+  database: app_guest_production
