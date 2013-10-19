@@ -33,6 +33,7 @@ group :doc do
 end
 
 gem 'devise'
+gem 'devise-guests'
 gem 'haml'
 
 # Use ActiveModel has_secure_password

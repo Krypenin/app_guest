@@ -42,6 +42,8 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    devise-guests (0.3.2)
+      devise
     erubis (2.7.0)
     execjs (2.0.2)
     haml (4.0.3)
@@ -122,6 +124,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise
+  devise-guests
   haml
   jbuilder (~> 1.2)
   jquery-rails
